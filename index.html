@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+  <script src="java/index.js"></script>
+  <title>Triangle Tracker</title>
+</head>
+<body background = "original.gif">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h1><strong>Triangle Tracker<strong></h1>
+            <p>Triangle Tracker takes the lengths of three sides and determines if they form a valid triangle. If so, the tracker returns the name of the kind of triangle the sides make (equilateral, isosceles, scalene).</p>
+
+            <p>A triangle is scalene if all of its three sides are different (in which case, the three angles are also different). If two of its sides are equal, a triangle is called isosceles. A triangle with all three equal sides is called equilateral.</p>
+            <section>
+              <img src="triangle.jpg" alt="Triangle" width="300" height="300" class="center">
+            </section>
+        <div class="jumbotron">
+          <form id="triangle">
+            <div class="form-group">
+              <label for="sideOne">Side One:</label>
+              <div>
+              <input type="number" id= 'type'><br>
+            </div>
+            <div>
+              <label for="sideTwo">Side Two:</label>
+            </div>
+            <div>
+              <input type="number" id='typeB'><br>
+            </div>
+            <div>
+              <label for="sideThree">Side Three:</label>
+              <div>
+              <input type="number" id='typeC'><br>
+            </div>
+          </form>
+        </div>
+          <button type="submit" onclick="triangleType()">Triangle Type</button>
+        <p id="result"></p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
