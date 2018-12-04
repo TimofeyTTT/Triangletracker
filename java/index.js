@@ -13,7 +13,9 @@ var r = sides[2];
     } else if(t==s || r==s || r==t){
       alert("Isosceles Triangle");
     } else if(t!==s && s!==r && t!==r){
-        alert("Scalene Triangle");
+        alert("Scalene Triangle")
+      }else if(t+s=>r || s+r=>t || t+r=>s){
+       alert("Not a Triangle")
       }else{
         alert("Not a Triangle");
       }
