@@ -6,9 +6,14 @@
 
 ------------------------------------------
 ![Triangle](https://github.com/TimofeyTTT/triangle-tracker/blob/master/triangle.jpg)
-
 ## Bugs
 There are no bugs but incase of one being found or dicovered let me know.
+
+## Behavior Driven Development
+1. Values Information / Input
+2. Validate values and Verify if its a triangle 
+3. If Validation & Verification Fails, Show value is not a triangle
+4. Else, not a triangle
 
 ## Support
 If you have any issues using this app, contact timthomasmill@gmail.com
